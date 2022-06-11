@@ -9,9 +9,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-* {
-  margin-top: 0;
-}
 
 a {
   color: inherit;
@@ -36,7 +33,7 @@ body {
   background-color: #070217;
 }
 
-img.logo-skillbox {
+.logo-skillbox {
   margin-bottom: 50px;
 }
 
@@ -60,14 +57,17 @@ img.logo-skillbox {
 }
 
 .title {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
 .subtitlel2,
 .subtitlel3 {
+  margin-top: 0;
   margin-bottom: 10px;
 }
 .article-paragraph {
+  margin-top: 0;
   margin-bottom: 40px;
   width: 872px;
 }
@@ -78,17 +78,19 @@ img.logo-skillbox {
   background-color: #f3f3f3;
 }
 
-.content:not(:last-child) {
+.content {
   margin-bottom: 40px;
 }
 
 .content__paragraph {
+  margin-top: 0;
   margin-bottom: 10px;
   width: 692px;
 }
 
 .content__list {
   padding-left: 15px;
+  margin: 0;
 }
 
 .content__item:not(:last-child) {
@@ -109,6 +111,6 @@ img.logo-skillbox {
   width: 872px;
 }
 
-.content:last-child {
+/* .content:last-child {
   padding-bottom: 0;
-}
+} */
